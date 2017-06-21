@@ -1,7 +1,77 @@
 *{
-	 font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  color: #2c2c2c;
 }
 
 body{
-	background-color: #0066cc;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+
+html, body{
+  height:100%;
+}
+
+
+#mainWrapper{
+  padding: 2%;
+  background-color: white;
+  width:950px;
+  margin:5%;
+  box-sizing: border-box;
+}
+
+#subWrapper{
+  position: relative;
+  top:20%;
+}
+
+button{
+  display:block;
+  width:500px;
+  height:100px;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+  font-size: 40px;;
+}
+
+h1{
+  font-size: 100px;
+  font-weight: bold;
+  color:navy;
+}
+h1.retroshadow {
+  color: #2c2c2c;
+  letter-spacing: .05em;
+  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#start{
+  margin-top: 10%;
+  border:2px solid gray;
+  background: #2c2c2c;
+  color: #d5d5d5
+}
+
+#quizArea h2{
+  margin-top: 35px;
+}
+
+button:hover {
+  border:2px solid gray;
+  background: #2c2c2c;
+  color: #d5d5d5
 }
